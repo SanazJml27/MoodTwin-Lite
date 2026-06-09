@@ -1,0 +1,4 @@
+day,steps,total_sleep_duration,efficiency,average_hrv,lowest_resting_heart_rate,readiness_score,activity_score
+2026-01-01,7420,26820,87,51,62,78,73
+2026-01-02,6180,22680,81,44,66,65,61
+2026-01-03,10300,29160,90,58,60,84,88

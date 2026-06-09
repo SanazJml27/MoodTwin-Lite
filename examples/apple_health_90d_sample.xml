@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HealthData locale="en_US">
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2024-12-31 23:15:00 +0000" endDate="2025-01-01 07:07:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6761" startDate="2025-01-01 08:00:00 +0000" endDate="2025-01-01 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="45" startDate="2025-01-01 12:00:00 +0000" endDate="2025-01-01 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="68.6" startDate="2025-01-01 07:00:00 +0000" endDate="2025-01-01 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="48.2" startDate="2025-01-01 07:10:00 +0000" endDate="2025-01-01 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-01 23:15:00 +0000" endDate="2025-01-02 06:03:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4452" startDate="2025-01-02 08:00:00 +0000" endDate="2025-01-02 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="50" startDate="2025-01-02 12:00:00 +0000" endDate="2025-01-02 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="74.7" startDate="2025-01-02 07:00:00 +0000" endDate="2025-01-02 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="40.6" startDate="2025-01-02 07:10:00 +0000" endDate="2025-01-02 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-02 23:15:00 +0000" endDate="2025-01-03 05:57:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="9637" startDate="2025-01-03 08:00:00 +0000" endDate="2025-01-03 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="64" startDate="2025-01-03 12:00:00 +0000" endDate="2025-01-03 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="82.0" startDate="2025-01-03 07:00:00 +0000" endDate="2025-01-03 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="74.1" startDate="2025-01-03 07:10:00 +0000" endDate="2025-01-03 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-03 23:15:00 +0000" endDate="2025-01-04 07:57:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4594" startDate="2025-01-04 08:00:00 +0000" endDate="2025-01-04 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="18" startDate="2025-01-04 12:00:00 +0000" endDate="2025-01-04 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="64.8" startDate="2025-01-04 07:00:00 +0000" endDate="2025-01-04 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="49.3" startDate="2025-01-04 07:10:00 +0000" endDate="2025-01-04 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-04 23:15:00 +0000" endDate="2025-01-05 07:49:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="8023" startDate="2025-01-05 08:00:00 +0000" endDate="2025-01-05 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="60" startDate="2025-01-05 12:00:00 +0000" endDate="2025-01-05 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="75.0" startDate="2025-01-05 07:00:00 +0000" endDate="2025-01-05 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="47.6" startDate="2025-01-05 07:10:00 +0000" endDate="2025-01-05 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-05 23:15:00 +0000" endDate="2025-01-06 07:01:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7051" startDate="2025-01-06 08:00:00 +0000" endDate="2025-01-06 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="79" startDate="2025-01-06 12:00:00 +0000" endDate="2025-01-06 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="68.0" startDate="2025-01-06 07:00:00 +0000" endDate="2025-01-06 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="49.5" startDate="2025-01-06 07:10:00 +0000" endDate="2025-01-06 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-06 23:15:00 +0000" endDate="2025-01-07 06:33:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4860" startDate="2025-01-07 08:00:00 +0000" endDate="2025-01-07 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="10" startDate="2025-01-07 12:00:00 +0000" endDate="2025-01-07 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.8" startDate="2025-01-07 07:00:00 +0000" endDate="2025-01-07 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="29.4" startDate="2025-01-07 07:10:00 +0000" endDate="2025-01-07 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-07 23:15:00 +0000" endDate="2025-01-08 06:04:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6303" startDate="2025-01-08 08:00:00 +0000" endDate="2025-01-08 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="68" startDate="2025-01-08 12:00:00 +0000" endDate="2025-01-08 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="70.9" startDate="2025-01-08 07:00:00 +0000" endDate="2025-01-08 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="30.2" startDate="2025-01-08 07:10:00 +0000" endDate="2025-01-08 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-08 23:15:00 +0000" endDate="2025-01-09 05:50:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7009" startDate="2025-01-09 08:00:00 +0000" endDate="2025-01-09 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="57" startDate="2025-01-09 12:00:00 +0000" endDate="2025-01-09 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="66.7" startDate="2025-01-09 07:00:00 +0000" endDate="2025-01-09 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="57.1" startDate="2025-01-09 07:10:00 +0000" endDate="2025-01-09 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-09 23:15:00 +0000" endDate="2025-01-10 07:13:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7838" startDate="2025-01-10 08:00:00 +0000" endDate="2025-01-10 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="69" startDate="2025-01-10 12:00:00 +0000" endDate="2025-01-10 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.5" startDate="2025-01-10 07:00:00 +0000" endDate="2025-01-10 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="72.8" startDate="2025-01-10 07:10:00 +0000" endDate="2025-01-10 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-10 23:15:00 +0000" endDate="2025-01-11 07:15:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4046" startDate="2025-01-11 08:00:00 +0000" endDate="2025-01-11 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="10" startDate="2025-01-11 12:00:00 +0000" endDate="2025-01-11 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="76.1" startDate="2025-01-11 07:00:00 +0000" endDate="2025-01-11 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="29.5" startDate="2025-01-11 07:10:00 +0000" endDate="2025-01-11 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-11 23:15:00 +0000" endDate="2025-01-12 07:33:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5787" startDate="2025-01-12 08:00:00 +0000" endDate="2025-01-12 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="40" startDate="2025-01-12 12:00:00 +0000" endDate="2025-01-12 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="72.9" startDate="2025-01-12 07:00:00 +0000" endDate="2025-01-12 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="42.8" startDate="2025-01-12 07:10:00 +0000" endDate="2025-01-12 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-12 23:15:00 +0000" endDate="2025-01-13 06:36:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5320" startDate="2025-01-13 08:00:00 +0000" endDate="2025-01-13 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="50" startDate="2025-01-13 12:00:00 +0000" endDate="2025-01-13 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="73.8" startDate="2025-01-13 07:00:00 +0000" endDate="2025-01-13 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="36.3" startDate="2025-01-13 07:10:00 +0000" endDate="2025-01-13 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-13 23:15:00 +0000" endDate="2025-01-14 05:25:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5788" startDate="2025-01-14 08:00:00 +0000" endDate="2025-01-14 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="38" startDate="2025-01-14 12:00:00 +0000" endDate="2025-01-14 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="72.7" startDate="2025-01-14 07:00:00 +0000" endDate="2025-01-14 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="38.3" startDate="2025-01-14 07:10:00 +0000" endDate="2025-01-14 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-14 23:15:00 +0000" endDate="2025-01-15 08:08:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6905" startDate="2025-01-15 08:00:00 +0000" endDate="2025-01-15 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="79" startDate="2025-01-15 12:00:00 +0000" endDate="2025-01-15 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="80.2" startDate="2025-01-15 07:00:00 +0000" endDate="2025-01-15 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="50.6" startDate="2025-01-15 07:10:00 +0000" endDate="2025-01-15 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-15 23:15:00 +0000" endDate="2025-01-16 07:16:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6600" startDate="2025-01-16 08:00:00 +0000" endDate="2025-01-16 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="37" startDate="2025-01-16 12:00:00 +0000" endDate="2025-01-16 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="73.7" startDate="2025-01-16 07:00:00 +0000" endDate="2025-01-16 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="58.0" startDate="2025-01-16 07:10:00 +0000" endDate="2025-01-16 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-16 23:15:00 +0000" endDate="2025-01-17 05:01:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7427" startDate="2025-01-17 08:00:00 +0000" endDate="2025-01-17 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="75" startDate="2025-01-17 12:00:00 +0000" endDate="2025-01-17 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="70.9" startDate="2025-01-17 07:00:00 +0000" endDate="2025-01-17 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="46.6" startDate="2025-01-17 07:10:00 +0000" endDate="2025-01-17 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-17 23:15:00 +0000" endDate="2025-01-18 07:10:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5699" startDate="2025-01-18 08:00:00 +0000" endDate="2025-01-18 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="45" startDate="2025-01-18 12:00:00 +0000" endDate="2025-01-18 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="72.3" startDate="2025-01-18 07:00:00 +0000" endDate="2025-01-18 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="34.4" startDate="2025-01-18 07:10:00 +0000" endDate="2025-01-18 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-18 23:15:00 +0000" endDate="2025-01-19 07:35:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7878" startDate="2025-01-19 08:00:00 +0000" endDate="2025-01-19 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="80" startDate="2025-01-19 12:00:00 +0000" endDate="2025-01-19 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="69.0" startDate="2025-01-19 07:00:00 +0000" endDate="2025-01-19 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="64.7" startDate="2025-01-19 07:10:00 +0000" endDate="2025-01-19 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-19 23:15:00 +0000" endDate="2025-01-20 06:43:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7719" startDate="2025-01-20 08:00:00 +0000" endDate="2025-01-20 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="52" startDate="2025-01-20 12:00:00 +0000" endDate="2025-01-20 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="67.8" startDate="2025-01-20 07:00:00 +0000" endDate="2025-01-20 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="45.5" startDate="2025-01-20 07:10:00 +0000" endDate="2025-01-20 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-20 23:15:00 +0000" endDate="2025-01-21 06:11:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4685" startDate="2025-01-21 08:00:00 +0000" endDate="2025-01-21 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="31" startDate="2025-01-21 12:00:00 +0000" endDate="2025-01-21 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="73.2" startDate="2025-01-21 07:00:00 +0000" endDate="2025-01-21 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="32.1" startDate="2025-01-21 07:10:00 +0000" endDate="2025-01-21 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-21 23:15:00 +0000" endDate="2025-01-22 07:12:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4419" startDate="2025-01-22 08:00:00 +0000" endDate="2025-01-22 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="50" startDate="2025-01-22 12:00:00 +0000" endDate="2025-01-22 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="77.6" startDate="2025-01-22 07:00:00 +0000" endDate="2025-01-22 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="38.0" startDate="2025-01-22 07:10:00 +0000" endDate="2025-01-22 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-22 23:15:00 +0000" endDate="2025-01-23 06:01:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5724" startDate="2025-01-23 08:00:00 +0000" endDate="2025-01-23 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="50" startDate="2025-01-23 12:00:00 +0000" endDate="2025-01-23 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="65.0" startDate="2025-01-23 07:00:00 +0000" endDate="2025-01-23 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="34.7" startDate="2025-01-23 07:10:00 +0000" endDate="2025-01-23 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-23 23:15:00 +0000" endDate="2025-01-24 06:54:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="3079" startDate="2025-01-24 08:00:00 +0000" endDate="2025-01-24 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="23" startDate="2025-01-24 12:00:00 +0000" endDate="2025-01-24 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="70.3" startDate="2025-01-24 07:00:00 +0000" endDate="2025-01-24 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="32.6" startDate="2025-01-24 07:10:00 +0000" endDate="2025-01-24 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-24 23:15:00 +0000" endDate="2025-01-25 07:26:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6283" startDate="2025-01-25 08:00:00 +0000" endDate="2025-01-25 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="37" startDate="2025-01-25 12:00:00 +0000" endDate="2025-01-25 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="63.1" startDate="2025-01-25 07:00:00 +0000" endDate="2025-01-25 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="37.4" startDate="2025-01-25 07:10:00 +0000" endDate="2025-01-25 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-25 23:15:00 +0000" endDate="2025-01-26 06:34:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="8055" startDate="2025-01-26 08:00:00 +0000" endDate="2025-01-26 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="56" startDate="2025-01-26 12:00:00 +0000" endDate="2025-01-26 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.9" startDate="2025-01-26 07:00:00 +0000" endDate="2025-01-26 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="56.0" startDate="2025-01-26 07:10:00 +0000" endDate="2025-01-26 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-26 23:15:00 +0000" endDate="2025-01-27 06:39:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7957" startDate="2025-01-27 08:00:00 +0000" endDate="2025-01-27 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="70" startDate="2025-01-27 12:00:00 +0000" endDate="2025-01-27 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="68.7" startDate="2025-01-27 07:00:00 +0000" endDate="2025-01-27 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="45.2" startDate="2025-01-27 07:10:00 +0000" endDate="2025-01-27 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-27 23:15:00 +0000" endDate="2025-01-28 07:07:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5305" startDate="2025-01-28 08:00:00 +0000" endDate="2025-01-28 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="29" startDate="2025-01-28 12:00:00 +0000" endDate="2025-01-28 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="70.7" startDate="2025-01-28 07:00:00 +0000" endDate="2025-01-28 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="38.1" startDate="2025-01-28 07:10:00 +0000" endDate="2025-01-28 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-28 23:15:00 +0000" endDate="2025-01-29 06:27:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4747" startDate="2025-01-29 08:00:00 +0000" endDate="2025-01-29 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="14" startDate="2025-01-29 12:00:00 +0000" endDate="2025-01-29 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="70.4" startDate="2025-01-29 07:00:00 +0000" endDate="2025-01-29 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="44.7" startDate="2025-01-29 07:10:00 +0000" endDate="2025-01-29 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-29 23:15:00 +0000" endDate="2025-01-30 07:31:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4961" startDate="2025-01-30 08:00:00 +0000" endDate="2025-01-30 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="45" startDate="2025-01-30 12:00:00 +0000" endDate="2025-01-30 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="63.8" startDate="2025-01-30 07:00:00 +0000" endDate="2025-01-30 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="40.0" startDate="2025-01-30 07:10:00 +0000" endDate="2025-01-30 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-30 23:15:00 +0000" endDate="2025-01-31 06:57:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6832" startDate="2025-01-31 08:00:00 +0000" endDate="2025-01-31 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="15" startDate="2025-01-31 12:00:00 +0000" endDate="2025-01-31 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="67.3" startDate="2025-01-31 07:00:00 +0000" endDate="2025-01-31 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="34.3" startDate="2025-01-31 07:10:00 +0000" endDate="2025-01-31 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-01-31 23:15:00 +0000" endDate="2025-02-01 07:55:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5929" startDate="2025-02-01 08:00:00 +0000" endDate="2025-02-01 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="84" startDate="2025-02-01 12:00:00 +0000" endDate="2025-02-01 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="72.0" startDate="2025-02-01 07:00:00 +0000" endDate="2025-02-01 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="41.0" startDate="2025-02-01 07:10:00 +0000" endDate="2025-02-01 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-01 23:15:00 +0000" endDate="2025-02-02 08:12:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="3440" startDate="2025-02-02 08:00:00 +0000" endDate="2025-02-02 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="24" startDate="2025-02-02 12:00:00 +0000" endDate="2025-02-02 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="76.7" startDate="2025-02-02 07:00:00 +0000" endDate="2025-02-02 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="32.6" startDate="2025-02-02 07:10:00 +0000" endDate="2025-02-02 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-02 23:15:00 +0000" endDate="2025-02-03 06:31:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5248" startDate="2025-02-03 08:00:00 +0000" endDate="2025-02-03 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="51" startDate="2025-02-03 12:00:00 +0000" endDate="2025-02-03 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="76.9" startDate="2025-02-03 07:00:00 +0000" endDate="2025-02-03 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="41.6" startDate="2025-02-03 07:10:00 +0000" endDate="2025-02-03 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-03 23:15:00 +0000" endDate="2025-02-04 06:06:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4847" startDate="2025-02-04 08:00:00 +0000" endDate="2025-02-04 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="38" startDate="2025-02-04 12:00:00 +0000" endDate="2025-02-04 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="82.5" startDate="2025-02-04 07:00:00 +0000" endDate="2025-02-04 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="40.1" startDate="2025-02-04 07:10:00 +0000" endDate="2025-02-04 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-04 23:15:00 +0000" endDate="2025-02-05 06:47:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7007" startDate="2025-02-05 08:00:00 +0000" endDate="2025-02-05 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="39" startDate="2025-02-05 12:00:00 +0000" endDate="2025-02-05 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="69.7" startDate="2025-02-05 07:00:00 +0000" endDate="2025-02-05 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="43.5" startDate="2025-02-05 07:10:00 +0000" endDate="2025-02-05 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-05 23:15:00 +0000" endDate="2025-02-06 06:40:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5240" startDate="2025-02-06 08:00:00 +0000" endDate="2025-02-06 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="54" startDate="2025-02-06 12:00:00 +0000" endDate="2025-02-06 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="74.8" startDate="2025-02-06 07:00:00 +0000" endDate="2025-02-06 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="33.9" startDate="2025-02-06 07:10:00 +0000" endDate="2025-02-06 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-06 23:15:00 +0000" endDate="2025-02-07 07:07:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6307" startDate="2025-02-07 08:00:00 +0000" endDate="2025-02-07 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="73" startDate="2025-02-07 12:00:00 +0000" endDate="2025-02-07 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.8" startDate="2025-02-07 07:00:00 +0000" endDate="2025-02-07 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="43.9" startDate="2025-02-07 07:10:00 +0000" endDate="2025-02-07 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-07 23:15:00 +0000" endDate="2025-02-08 05:55:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6526" startDate="2025-02-08 08:00:00 +0000" endDate="2025-02-08 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="51" startDate="2025-02-08 12:00:00 +0000" endDate="2025-02-08 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="65.2" startDate="2025-02-08 07:00:00 +0000" endDate="2025-02-08 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="39.2" startDate="2025-02-08 07:10:00 +0000" endDate="2025-02-08 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-08 23:15:00 +0000" endDate="2025-02-09 07:15:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6613" startDate="2025-02-09 08:00:00 +0000" endDate="2025-02-09 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="49" startDate="2025-02-09 12:00:00 +0000" endDate="2025-02-09 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="70.5" startDate="2025-02-09 07:00:00 +0000" endDate="2025-02-09 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="44.1" startDate="2025-02-09 07:10:00 +0000" endDate="2025-02-09 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-09 23:15:00 +0000" endDate="2025-02-10 06:31:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7362" startDate="2025-02-10 08:00:00 +0000" endDate="2025-02-10 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="49" startDate="2025-02-10 12:00:00 +0000" endDate="2025-02-10 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="65.3" startDate="2025-02-10 07:00:00 +0000" endDate="2025-02-10 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="49.2" startDate="2025-02-10 07:10:00 +0000" endDate="2025-02-10 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-10 23:15:00 +0000" endDate="2025-02-11 05:19:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="8597" startDate="2025-02-11 08:00:00 +0000" endDate="2025-02-11 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="47" startDate="2025-02-11 12:00:00 +0000" endDate="2025-02-11 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="69.6" startDate="2025-02-11 07:00:00 +0000" endDate="2025-02-11 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="49.6" startDate="2025-02-11 07:10:00 +0000" endDate="2025-02-11 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-11 23:15:00 +0000" endDate="2025-02-12 06:46:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="8129" startDate="2025-02-12 08:00:00 +0000" endDate="2025-02-12 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="52" startDate="2025-02-12 12:00:00 +0000" endDate="2025-02-12 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="78.4" startDate="2025-02-12 07:00:00 +0000" endDate="2025-02-12 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="51.7" startDate="2025-02-12 07:10:00 +0000" endDate="2025-02-12 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-12 23:15:00 +0000" endDate="2025-02-13 06:31:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5635" startDate="2025-02-13 08:00:00 +0000" endDate="2025-02-13 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="50" startDate="2025-02-13 12:00:00 +0000" endDate="2025-02-13 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="68.8" startDate="2025-02-13 07:00:00 +0000" endDate="2025-02-13 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="44.3" startDate="2025-02-13 07:10:00 +0000" endDate="2025-02-13 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-13 23:15:00 +0000" endDate="2025-02-14 05:57:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7433" startDate="2025-02-14 08:00:00 +0000" endDate="2025-02-14 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="42" startDate="2025-02-14 12:00:00 +0000" endDate="2025-02-14 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="65.9" startDate="2025-02-14 07:00:00 +0000" endDate="2025-02-14 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="52.8" startDate="2025-02-14 07:10:00 +0000" endDate="2025-02-14 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-14 23:15:00 +0000" endDate="2025-02-15 07:01:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5276" startDate="2025-02-15 08:00:00 +0000" endDate="2025-02-15 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="50" startDate="2025-02-15 12:00:00 +0000" endDate="2025-02-15 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="73.3" startDate="2025-02-15 07:00:00 +0000" endDate="2025-02-15 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="45.6" startDate="2025-02-15 07:10:00 +0000" endDate="2025-02-15 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-15 23:15:00 +0000" endDate="2025-02-16 08:24:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6612" startDate="2025-02-16 08:00:00 +0000" endDate="2025-02-16 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="55" startDate="2025-02-16 12:00:00 +0000" endDate="2025-02-16 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="65.9" startDate="2025-02-16 07:00:00 +0000" endDate="2025-02-16 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="40.2" startDate="2025-02-16 07:10:00 +0000" endDate="2025-02-16 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-16 23:15:00 +0000" endDate="2025-02-17 05:53:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5964" startDate="2025-02-17 08:00:00 +0000" endDate="2025-02-17 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="52" startDate="2025-02-17 12:00:00 +0000" endDate="2025-02-17 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="70.2" startDate="2025-02-17 07:00:00 +0000" endDate="2025-02-17 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="50.5" startDate="2025-02-17 07:10:00 +0000" endDate="2025-02-17 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-17 23:15:00 +0000" endDate="2025-02-18 06:37:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6548" startDate="2025-02-18 08:00:00 +0000" endDate="2025-02-18 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="62" startDate="2025-02-18 12:00:00 +0000" endDate="2025-02-18 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="75.6" startDate="2025-02-18 07:00:00 +0000" endDate="2025-02-18 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="38.6" startDate="2025-02-18 07:10:00 +0000" endDate="2025-02-18 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-18 23:15:00 +0000" endDate="2025-02-19 07:18:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5701" startDate="2025-02-19 08:00:00 +0000" endDate="2025-02-19 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="40" startDate="2025-02-19 12:00:00 +0000" endDate="2025-02-19 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="74.3" startDate="2025-02-19 07:00:00 +0000" endDate="2025-02-19 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="39.5" startDate="2025-02-19 07:10:00 +0000" endDate="2025-02-19 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-19 23:15:00 +0000" endDate="2025-02-20 07:28:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4324" startDate="2025-02-20 08:00:00 +0000" endDate="2025-02-20 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="47" startDate="2025-02-20 12:00:00 +0000" endDate="2025-02-20 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.6" startDate="2025-02-20 07:00:00 +0000" endDate="2025-02-20 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="37.1" startDate="2025-02-20 07:10:00 +0000" endDate="2025-02-20 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-20 23:15:00 +0000" endDate="2025-02-21 05:52:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6974" startDate="2025-02-21 08:00:00 +0000" endDate="2025-02-21 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="51" startDate="2025-02-21 12:00:00 +0000" endDate="2025-02-21 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="70.4" startDate="2025-02-21 07:00:00 +0000" endDate="2025-02-21 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="35.9" startDate="2025-02-21 07:10:00 +0000" endDate="2025-02-21 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-21 23:15:00 +0000" endDate="2025-02-22 07:55:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="8191" startDate="2025-02-22 08:00:00 +0000" endDate="2025-02-22 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="67" startDate="2025-02-22 12:00:00 +0000" endDate="2025-02-22 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="64.3" startDate="2025-02-22 07:00:00 +0000" endDate="2025-02-22 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="56.9" startDate="2025-02-22 07:10:00 +0000" endDate="2025-02-22 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-22 23:15:00 +0000" endDate="2025-02-23 06:03:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5324" startDate="2025-02-23 08:00:00 +0000" endDate="2025-02-23 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="43" startDate="2025-02-23 12:00:00 +0000" endDate="2025-02-23 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.0" startDate="2025-02-23 07:00:00 +0000" endDate="2025-02-23 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="42.7" startDate="2025-02-23 07:10:00 +0000" endDate="2025-02-23 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-23 23:15:00 +0000" endDate="2025-02-24 06:39:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7322" startDate="2025-02-24 08:00:00 +0000" endDate="2025-02-24 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="48" startDate="2025-02-24 12:00:00 +0000" endDate="2025-02-24 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="70.0" startDate="2025-02-24 07:00:00 +0000" endDate="2025-02-24 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="55.7" startDate="2025-02-24 07:10:00 +0000" endDate="2025-02-24 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-24 23:15:00 +0000" endDate="2025-02-25 07:27:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="8219" startDate="2025-02-25 08:00:00 +0000" endDate="2025-02-25 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="52" startDate="2025-02-25 12:00:00 +0000" endDate="2025-02-25 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="67.9" startDate="2025-02-25 07:00:00 +0000" endDate="2025-02-25 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="49.9" startDate="2025-02-25 07:10:00 +0000" endDate="2025-02-25 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-25 23:15:00 +0000" endDate="2025-02-26 07:24:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="3197" startDate="2025-02-26 08:00:00 +0000" endDate="2025-02-26 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="18" startDate="2025-02-26 12:00:00 +0000" endDate="2025-02-26 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="74.5" startDate="2025-02-26 07:00:00 +0000" endDate="2025-02-26 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="29.5" startDate="2025-02-26 07:10:00 +0000" endDate="2025-02-26 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-26 23:15:00 +0000" endDate="2025-02-27 08:24:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7623" startDate="2025-02-27 08:00:00 +0000" endDate="2025-02-27 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="51" startDate="2025-02-27 12:00:00 +0000" endDate="2025-02-27 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="65.9" startDate="2025-02-27 07:00:00 +0000" endDate="2025-02-27 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="34.4" startDate="2025-02-27 07:10:00 +0000" endDate="2025-02-27 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-27 23:15:00 +0000" endDate="2025-02-28 06:22:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5784" startDate="2025-02-28 08:00:00 +0000" endDate="2025-02-28 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="48" startDate="2025-02-28 12:00:00 +0000" endDate="2025-02-28 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="68.8" startDate="2025-02-28 07:00:00 +0000" endDate="2025-02-28 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="40.4" startDate="2025-02-28 07:10:00 +0000" endDate="2025-02-28 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-02-28 23:15:00 +0000" endDate="2025-03-01 07:30:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5969" startDate="2025-03-01 08:00:00 +0000" endDate="2025-03-01 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="33" startDate="2025-03-01 12:00:00 +0000" endDate="2025-03-01 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="69.4" startDate="2025-03-01 07:00:00 +0000" endDate="2025-03-01 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="42.3" startDate="2025-03-01 07:10:00 +0000" endDate="2025-03-01 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-01 23:15:00 +0000" endDate="2025-03-02 07:20:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7542" startDate="2025-03-02 08:00:00 +0000" endDate="2025-03-02 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="57" startDate="2025-03-02 12:00:00 +0000" endDate="2025-03-02 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="70.2" startDate="2025-03-02 07:00:00 +0000" endDate="2025-03-02 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="47.8" startDate="2025-03-02 07:10:00 +0000" endDate="2025-03-02 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-02 23:15:00 +0000" endDate="2025-03-03 06:16:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4894" startDate="2025-03-03 08:00:00 +0000" endDate="2025-03-03 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="33" startDate="2025-03-03 12:00:00 +0000" endDate="2025-03-03 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="75.1" startDate="2025-03-03 07:00:00 +0000" endDate="2025-03-03 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="36.8" startDate="2025-03-03 07:10:00 +0000" endDate="2025-03-03 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-03 23:15:00 +0000" endDate="2025-03-04 06:53:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6149" startDate="2025-03-04 08:00:00 +0000" endDate="2025-03-04 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="46" startDate="2025-03-04 12:00:00 +0000" endDate="2025-03-04 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="75.9" startDate="2025-03-04 07:00:00 +0000" endDate="2025-03-04 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="37.0" startDate="2025-03-04 07:10:00 +0000" endDate="2025-03-04 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-04 23:15:00 +0000" endDate="2025-03-05 06:54:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="8086" startDate="2025-03-05 08:00:00 +0000" endDate="2025-03-05 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="80" startDate="2025-03-05 12:00:00 +0000" endDate="2025-03-05 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="76.4" startDate="2025-03-05 07:00:00 +0000" endDate="2025-03-05 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="54.2" startDate="2025-03-05 07:10:00 +0000" endDate="2025-03-05 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-05 23:15:00 +0000" endDate="2025-03-06 05:57:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4351" startDate="2025-03-06 08:00:00 +0000" endDate="2025-03-06 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="25" startDate="2025-03-06 12:00:00 +0000" endDate="2025-03-06 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.4" startDate="2025-03-06 07:00:00 +0000" endDate="2025-03-06 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="37.0" startDate="2025-03-06 07:10:00 +0000" endDate="2025-03-06 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-06 23:15:00 +0000" endDate="2025-03-07 06:21:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="3406" startDate="2025-03-07 08:00:00 +0000" endDate="2025-03-07 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="26" startDate="2025-03-07 12:00:00 +0000" endDate="2025-03-07 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="72.7" startDate="2025-03-07 07:00:00 +0000" endDate="2025-03-07 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="30.0" startDate="2025-03-07 07:10:00 +0000" endDate="2025-03-07 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-07 23:15:00 +0000" endDate="2025-03-08 06:58:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6047" startDate="2025-03-08 08:00:00 +0000" endDate="2025-03-08 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="55" startDate="2025-03-08 12:00:00 +0000" endDate="2025-03-08 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="66.9" startDate="2025-03-08 07:00:00 +0000" endDate="2025-03-08 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="45.8" startDate="2025-03-08 07:10:00 +0000" endDate="2025-03-08 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-08 23:15:00 +0000" endDate="2025-03-09 07:33:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4408" startDate="2025-03-09 08:00:00 +0000" endDate="2025-03-09 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="16" startDate="2025-03-09 12:00:00 +0000" endDate="2025-03-09 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="73.3" startDate="2025-03-09 07:00:00 +0000" endDate="2025-03-09 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="29.0" startDate="2025-03-09 07:10:00 +0000" endDate="2025-03-09 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-09 23:15:00 +0000" endDate="2025-03-10 06:45:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5339" startDate="2025-03-10 08:00:00 +0000" endDate="2025-03-10 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="38" startDate="2025-03-10 12:00:00 +0000" endDate="2025-03-10 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.2" startDate="2025-03-10 07:00:00 +0000" endDate="2025-03-10 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="36.5" startDate="2025-03-10 07:10:00 +0000" endDate="2025-03-10 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-10 23:15:00 +0000" endDate="2025-03-11 05:29:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4153" startDate="2025-03-11 08:00:00 +0000" endDate="2025-03-11 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="23" startDate="2025-03-11 12:00:00 +0000" endDate="2025-03-11 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="75.0" startDate="2025-03-11 07:00:00 +0000" endDate="2025-03-11 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="31.6" startDate="2025-03-11 07:10:00 +0000" endDate="2025-03-11 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-11 23:15:00 +0000" endDate="2025-03-12 05:57:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6241" startDate="2025-03-12 08:00:00 +0000" endDate="2025-03-12 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="33" startDate="2025-03-12 12:00:00 +0000" endDate="2025-03-12 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="70.1" startDate="2025-03-12 07:00:00 +0000" endDate="2025-03-12 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="44.9" startDate="2025-03-12 07:10:00 +0000" endDate="2025-03-12 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-12 23:15:00 +0000" endDate="2025-03-13 06:44:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="7215" startDate="2025-03-13 08:00:00 +0000" endDate="2025-03-13 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="64" startDate="2025-03-13 12:00:00 +0000" endDate="2025-03-13 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="70.8" startDate="2025-03-13 07:00:00 +0000" endDate="2025-03-13 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="41.8" startDate="2025-03-13 07:10:00 +0000" endDate="2025-03-13 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-13 23:15:00 +0000" endDate="2025-03-14 06:11:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4393" startDate="2025-03-14 08:00:00 +0000" endDate="2025-03-14 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="36" startDate="2025-03-14 12:00:00 +0000" endDate="2025-03-14 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="62.9" startDate="2025-03-14 07:00:00 +0000" endDate="2025-03-14 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="35.6" startDate="2025-03-14 07:10:00 +0000" endDate="2025-03-14 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-14 23:15:00 +0000" endDate="2025-03-15 07:15:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="3633" startDate="2025-03-15 08:00:00 +0000" endDate="2025-03-15 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="27" startDate="2025-03-15 12:00:00 +0000" endDate="2025-03-15 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.2" startDate="2025-03-15 07:00:00 +0000" endDate="2025-03-15 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="33.6" startDate="2025-03-15 07:10:00 +0000" endDate="2025-03-15 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-15 23:15:00 +0000" endDate="2025-03-16 06:40:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6024" startDate="2025-03-16 08:00:00 +0000" endDate="2025-03-16 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="62" startDate="2025-03-16 12:00:00 +0000" endDate="2025-03-16 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="80.2" startDate="2025-03-16 07:00:00 +0000" endDate="2025-03-16 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="44.4" startDate="2025-03-16 07:10:00 +0000" endDate="2025-03-16 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-16 23:15:00 +0000" endDate="2025-03-17 07:19:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6386" startDate="2025-03-17 08:00:00 +0000" endDate="2025-03-17 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="50" startDate="2025-03-17 12:00:00 +0000" endDate="2025-03-17 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.9" startDate="2025-03-17 07:00:00 +0000" endDate="2025-03-17 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="45.1" startDate="2025-03-17 07:10:00 +0000" endDate="2025-03-17 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-17 23:15:00 +0000" endDate="2025-03-18 07:39:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6463" startDate="2025-03-18 08:00:00 +0000" endDate="2025-03-18 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="65" startDate="2025-03-18 12:00:00 +0000" endDate="2025-03-18 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="67.2" startDate="2025-03-18 07:00:00 +0000" endDate="2025-03-18 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="38.8" startDate="2025-03-18 07:10:00 +0000" endDate="2025-03-18 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-18 23:15:00 +0000" endDate="2025-03-19 06:25:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="8360" startDate="2025-03-19 08:00:00 +0000" endDate="2025-03-19 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="51" startDate="2025-03-19 12:00:00 +0000" endDate="2025-03-19 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.2" startDate="2025-03-19 07:00:00 +0000" endDate="2025-03-19 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="40.1" startDate="2025-03-19 07:10:00 +0000" endDate="2025-03-19 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-19 23:15:00 +0000" endDate="2025-03-20 06:53:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="8025" startDate="2025-03-20 08:00:00 +0000" endDate="2025-03-20 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="69" startDate="2025-03-20 12:00:00 +0000" endDate="2025-03-20 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.5" startDate="2025-03-20 07:00:00 +0000" endDate="2025-03-20 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="47.5" startDate="2025-03-20 07:10:00 +0000" endDate="2025-03-20 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-20 23:15:00 +0000" endDate="2025-03-21 06:21:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6656" startDate="2025-03-21 08:00:00 +0000" endDate="2025-03-21 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="36" startDate="2025-03-21 12:00:00 +0000" endDate="2025-03-21 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="67.4" startDate="2025-03-21 07:00:00 +0000" endDate="2025-03-21 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="50.2" startDate="2025-03-21 07:10:00 +0000" endDate="2025-03-21 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-21 23:15:00 +0000" endDate="2025-03-22 07:08:24 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5091" startDate="2025-03-22 08:00:00 +0000" endDate="2025-03-22 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="4" startDate="2025-03-22 12:00:00 +0000" endDate="2025-03-22 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="67.5" startDate="2025-03-22 07:00:00 +0000" endDate="2025-03-22 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="38.8" startDate="2025-03-22 07:10:00 +0000" endDate="2025-03-22 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-22 23:15:00 +0000" endDate="2025-03-23 07:10:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4064" startDate="2025-03-23 08:00:00 +0000" endDate="2025-03-23 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="36" startDate="2025-03-23 12:00:00 +0000" endDate="2025-03-23 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="68.2" startDate="2025-03-23 07:00:00 +0000" endDate="2025-03-23 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="36.2" startDate="2025-03-23 07:10:00 +0000" endDate="2025-03-23 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-23 23:15:00 +0000" endDate="2025-03-24 08:16:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="4614" startDate="2025-03-24 08:00:00 +0000" endDate="2025-03-24 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="23" startDate="2025-03-24 12:00:00 +0000" endDate="2025-03-24 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="76.3" startDate="2025-03-24 07:00:00 +0000" endDate="2025-03-24 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="34.4" startDate="2025-03-24 07:10:00 +0000" endDate="2025-03-24 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-24 23:15:00 +0000" endDate="2025-03-25 04:39:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5476" startDate="2025-03-25 08:00:00 +0000" endDate="2025-03-25 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="47" startDate="2025-03-25 12:00:00 +0000" endDate="2025-03-25 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="68.8" startDate="2025-03-25 07:00:00 +0000" endDate="2025-03-25 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="27.2" startDate="2025-03-25 07:10:00 +0000" endDate="2025-03-25 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-25 23:15:00 +0000" endDate="2025-03-26 06:52:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5644" startDate="2025-03-26 08:00:00 +0000" endDate="2025-03-26 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="52" startDate="2025-03-26 12:00:00 +0000" endDate="2025-03-26 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="72.9" startDate="2025-03-26 07:00:00 +0000" endDate="2025-03-26 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="15.8" startDate="2025-03-26 07:10:00 +0000" endDate="2025-03-26 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-26 23:15:00 +0000" endDate="2025-03-27 08:01:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5009" startDate="2025-03-27 08:00:00 +0000" endDate="2025-03-27 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="67" startDate="2025-03-27 12:00:00 +0000" endDate="2025-03-27 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="65.6" startDate="2025-03-27 07:00:00 +0000" endDate="2025-03-27 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="48.2" startDate="2025-03-27 07:10:00 +0000" endDate="2025-03-27 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-27 23:15:00 +0000" endDate="2025-03-28 07:07:48 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="5657" startDate="2025-03-28 08:00:00 +0000" endDate="2025-03-28 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="42" startDate="2025-03-28 12:00:00 +0000" endDate="2025-03-28 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="71.1" startDate="2025-03-28 07:00:00 +0000" endDate="2025-03-28 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="54.7" startDate="2025-03-28 07:10:00 +0000" endDate="2025-03-28 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-28 23:15:00 +0000" endDate="2025-03-29 07:04:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6716" startDate="2025-03-29 08:00:00 +0000" endDate="2025-03-29 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="32" startDate="2025-03-29 12:00:00 +0000" endDate="2025-03-29 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="73.3" startDate="2025-03-29 07:00:00 +0000" endDate="2025-03-29 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="39.8" startDate="2025-03-29 07:10:00 +0000" endDate="2025-03-29 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-29 23:15:00 +0000" endDate="2025-03-30 07:43:12 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="8842" startDate="2025-03-30 08:00:00 +0000" endDate="2025-03-30 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="66" startDate="2025-03-30 12:00:00 +0000" endDate="2025-03-30 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="65.2" startDate="2025-03-30 07:00:00 +0000" endDate="2025-03-30 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="56.3" startDate="2025-03-30 07:10:00 +0000" endDate="2025-03-30 07:12:00 +0000"/>
+  <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="MoodTwin Demo" value="HKCategoryValueSleepAnalysisAsleep" startDate="2025-03-30 23:15:00 +0000" endDate="2025-03-31 07:27:36 +0000"/>
+  <Record type="HKQuantityTypeIdentifierStepCount" sourceName="MoodTwin Demo" unit="count" value="6454" startDate="2025-03-31 08:00:00 +0000" endDate="2025-03-31 22:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="MoodTwin Demo" unit="min" value="41" startDate="2025-03-31 12:00:00 +0000" endDate="2025-03-31 13:00:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="MoodTwin Demo" unit="count/min" value="69.5" startDate="2025-03-31 07:00:00 +0000" endDate="2025-03-31 07:05:00 +0000"/>
+  <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="MoodTwin Demo" unit="ms" value="48.9" startDate="2025-03-31 07:10:00 +0000" endDate="2025-03-31 07:12:00 +0000"/>
+</HealthData>

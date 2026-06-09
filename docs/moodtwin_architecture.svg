@@ -1,0 +1,58 @@
+<svg width="980" height="520" viewBox="0 0 980 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="980" height="520" rx="28" fill="#F8FAFC"/>
+  <text x="490" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">MoodTwin-Lite Architecture</text>
+  <text x="490" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#4B5563">Local-first longitudinal digital twin prototype for mood, sleep, activity, and wearable trajectories</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="45" y="125" width="190" height="92" rx="16" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+    <text x="140" y="158" text-anchor="middle" font-size="18" font-weight="700" fill="#075985">Data sources</text>
+    <text x="140" y="184" text-anchor="middle" font-size="13" fill="#075985">Synthetic, Apple Health</text>
+    <text x="140" y="202" text-anchor="middle" font-size="13" fill="#075985">Oura, Fitbit, IFH Affect</text>
+
+    <rect x="285" y="125" width="190" height="92" rx="16" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+    <text x="380" y="158" text-anchor="middle" font-size="18" font-weight="700" fill="#166534">Import adapters</text>
+    <text x="380" y="184" text-anchor="middle" font-size="13" fill="#166534">Daily schema mapping</text>
+    <text x="380" y="202" text-anchor="middle" font-size="13" fill="#166534">Mood diary merge</text>
+
+    <rect x="525" y="125" width="190" height="92" rx="16" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+    <text x="620" y="158" text-anchor="middle" font-size="18" font-weight="700" fill="#92400E">Feature engine</text>
+    <text x="620" y="184" text-anchor="middle" font-size="13" fill="#92400E">Lagged mood</text>
+    <text x="620" y="202" text-anchor="middle" font-size="13" fill="#92400E">Rolling sleep/activity/HRV</text>
+
+    <rect x="765" y="125" width="170" height="92" rx="16" fill="#FCE7F3" stroke="#DB2777" stroke-width="2"/>
+    <text x="850" y="158" text-anchor="middle" font-size="18" font-weight="700" fill="#9D174D">Forecasting</text>
+    <text x="850" y="184" text-anchor="middle" font-size="13" fill="#9D174D">Next-day model</text>
+    <text x="850" y="202" text-anchor="middle" font-size="13" fill="#9D174D">7-day trajectory</text>
+
+    <rect x="165" y="310" width="200" height="96" rx="16" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2"/>
+    <text x="265" y="344" text-anchor="middle" font-size="18" font-weight="700" fill="#5B21B6">Timeline serializer</text>
+    <text x="265" y="370" text-anchor="middle" font-size="13" fill="#5B21B6">LLM-ready / optional hosted</text>
+    <text x="265" y="388" text-anchor="middle" font-size="13" fill="#5B21B6">profile summary</text>
+
+    <rect x="420" y="310" width="200" height="96" rx="16" fill="#FFE4E6" stroke="#E11D48" stroke-width="2"/>
+    <text x="520" y="344" text-anchor="middle" font-size="18" font-weight="700" fill="#9F1239">Risk + scenarios</text>
+    <text x="520" y="370" text-anchor="middle" font-size="13" fill="#9F1239">Heuristic markers</text>
+    <text x="520" y="388" text-anchor="middle" font-size="13" fill="#9F1239">Non-causal what-if tests</text>
+
+    <rect x="675" y="310" width="200" height="96" rx="16" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+    <text x="775" y="344" text-anchor="middle" font-size="18" font-weight="700" fill="#065F46">Streamlit app</text>
+    <text x="775" y="370" text-anchor="middle" font-size="13" fill="#065F46">Dashboard</text>
+    <text x="775" y="388" text-anchor="middle" font-size="13" fill="#065F46">Markdown reports</text>
+  </g>
+
+  <g stroke="#64748B" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M235 171 H285"/>
+    <path d="M475 171 H525"/>
+    <path d="M715 171 H765"/>
+    <path d="M850 217 C850 270 775 270 775 310"/>
+    <path d="M620 217 C620 270 520 270 520 310"/>
+    <path d="M380 217 C380 270 265 270 265 310"/>
+    <path d="M365 358 H420"/>
+    <path d="M620 358 H675"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#64748B" />
+    </marker>
+  </defs>
+</svg>
