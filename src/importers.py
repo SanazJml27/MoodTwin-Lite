@@ -109,6 +109,62 @@ def _scale_to_1_10(series: pd.Series, min_value: float | None = None, max_value:
     return scaled.clip(1, 10)
 
 
+def _has_usable_mood_labels(df: pd.DataFrame) -> bool:
+    """Return True when mood_score looks user-provided rather than default-filled."""
+
+    if "mood_score" not in df.columns:
+        return False
+    mood = pd.to_numeric(df["mood_score"], errors="coerce").dropna()
+    return len(mood) >= 7 and mood.nunique(dropna=True) >= 3 and float(mood.std()) > 0.15
+
+
+def _derive_proxy_mood_from_signals(out: pd.DataFrame) -> pd.Series:
+    """Create a deterministic demo mood proxy from wearable-style signals.
+
+    This is used only when a wearable upload does not include real mood labels.
+    It prevents the dashboard from collapsing to a flat neutral line while still
+    warning the user that a diary is needed for a real supervised mood twin.
+    """
+
+    sleep = pd.to_numeric(out["sleep_hours"], errors="coerce").fillna(DEFAULTS["sleep_hours"])
+    sleep_eff = pd.to_numeric(out["sleep_efficiency"], errors="coerce").fillna(DEFAULTS["sleep_efficiency"])
+    steps = pd.to_numeric(out["steps"], errors="coerce").fillna(DEFAULTS["steps"])
+    hrv = pd.to_numeric(out["hrv_rmssd"], errors="coerce").fillna(DEFAULTS["hrv_rmssd"])
+    resting_hr = pd.to_numeric(out["resting_hr"], errors="coerce").fillna(DEFAULTS["resting_hr"])
+    late_screen = pd.to_numeric(out["late_screen_minutes"], errors="coerce").fillna(DEFAULTS["late_screen_minutes"])
+    stress = pd.to_numeric(out["work_stress"], errors="coerce").fillna(DEFAULTS["work_stress"])
+
+    # Component scores on a 1-10 scale. These are heuristic wellness proxies,
+    # not clinical labels. They are intentionally transparent and deterministic.
+    sleep_component = (10 - (sleep - 7.5).abs() * 1.35).clip(1, 10)
+    sleep_eff_component = _scale_to_1_10(sleep_eff, 55, 98)
+    activity_component = _scale_to_1_10(steps, 1500, 12000)
+    hrv_component = _scale_to_1_10(hrv)
+    resting_component = (11 - _scale_to_1_10(resting_hr, 48, 95)).clip(1, 10)
+    screen_component = (11 - _scale_to_1_10(late_screen, 0, 180)).clip(1, 10)
+    stress_component = (11 - stress).clip(1, 10)
+
+    proxy = (
+        0.30 * sleep_component
+        + 0.10 * sleep_eff_component
+        + 0.22 * activity_component
+        + 0.18 * hrv_component
+        + 0.08 * resting_component
+        + 0.06 * screen_component
+        + 0.06 * stress_component
+    )
+
+    dates = pd.to_datetime(out["date"], errors="coerce")
+    if dates.notna().any():
+        dow = dates.dt.dayofweek.fillna(0).astype(float)
+        proxy = proxy + 0.20 * np.sin(2 * np.pi * dow / 7)
+
+    # Smooth slightly so the line looks like a plausible trajectory rather than
+    # raw sensor noise, but keep enough movement for charts and forecasts.
+    proxy = proxy.rolling(3, min_periods=1).mean()
+    return proxy.clip(1, 10).round(2)
+
+
 def ensure_moodtwin_schema(
     df: pd.DataFrame,
     *,
@@ -127,6 +183,7 @@ def ensure_moodtwin_schema(
 
     out = df.copy()
     warnings: list[str] = []
+    has_real_mood_labels = _has_usable_mood_labels(out)
 
     if "date" not in out.columns:
         raise ValueError("Imported data must contain a date column after conversion.")
@@ -156,9 +213,15 @@ def ensure_moodtwin_schema(
         else:
             out[col] = out[col].fillna(default).astype(str)
 
+    if not has_real_mood_labels:
+        out["mood_score"] = _derive_proxy_mood_from_signals(out)
+        warnings.append(
+            "mood_score was missing or nearly constant, so MoodTwin generated a transparent wearable-derived proxy mood trajectory for demo forecasting. Merge a daily mood diary CSV for real personal mood modelling."
+        )
+
     if out["mood_score"].nunique(dropna=True) <= 2:
         warnings.append(
-            "Mood labels appear missing or nearly constant. For a real personal twin, merge a daily mood diary CSV."
+            "Mood labels still appear nearly constant. Forecasts may look flat until more varied mood diary labels are available."
         )
 
     # Sensible clipping to keep the downstream Pydantic/schema assumptions valid.

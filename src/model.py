@@ -129,6 +129,14 @@ def forecast_mood(
     last_date = history["date"].max()
     participant_id = history["participant_id"].iloc[0]
 
+    recent_moods = pd.Series(mood_history[-min(len(mood_history), 14):], dtype="float64")
+    if len(recent_moods) >= 4:
+        x_recent = np.arange(len(recent_moods), dtype="float64")
+        recent_trend = float(np.polyfit(x_recent, recent_moods, deg=1)[0])
+    else:
+        recent_trend = 0.0
+    recent_trend = _clip(recent_trend, -0.18, 0.18)
+
     for i in range(1, days + 1):
         forecast_date = last_date + timedelta(days=i)
         dow = forecast_date.dayofweek
@@ -154,7 +162,20 @@ def forecast_mood(
         forecasts.append(row)
         mood_history.append(predicted)
 
-    return pd.DataFrame(forecasts)
+    out = pd.DataFrame(forecasts)
+
+    # Some tiny uploads or sensor-only examples can make the fitted model converge
+    # to almost the same prediction every day. Keep the forecast honest but more
+    # useful by lightly blending in the participant's recent mood slope only when
+    # the model output is visually flat.
+    if len(out) > 1 and float(out["predicted_mood"].std(ddof=0)) < 0.05:
+        last_mood = float(mood_history[0] if len(mood_history) == 1 else history["mood_score"].iloc[-1])
+        day_index = np.arange(1, len(out) + 1, dtype="float64")
+        trend_path = last_mood + recent_trend * day_index
+        adjusted = 0.70 * out["predicted_mood"].astype(float).to_numpy() + 0.30 * trend_path
+        out["predicted_mood"] = np.clip(adjusted, 1, 10).round(2)
+
+    return out
 
 
 def feature_importance_table(model_result: ModelResult) -> pd.DataFrame:

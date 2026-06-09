@@ -36,3 +36,12 @@ def test_apple_importer_outputs_schema_for_realistic_sample():
     assert summary.start_date == "2025-01-01"
     assert df["steps"].mean() > 1000
     assert df["mood_score"].nunique() > 20
+
+
+def test_sensor_only_oura_import_generates_nonflat_proxy_mood():
+    df, summary = parse_oura_daily_csv(ROOT / "examples" / "oura_daily_120d_sample.csv")
+    assert list(df.columns) == REQUIRED_COLUMNS
+    assert len(df) == 120
+    assert df["mood_score"].nunique() > 10
+    assert df["mood_score"].std() > 0.2
+    assert any("proxy mood trajectory" in warning for warning in summary.warnings)

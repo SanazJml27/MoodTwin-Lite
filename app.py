@@ -1,6 +1,10 @@
 from __future__ import annotations
 
+import hashlib
 import html
+import re
+from datetime import datetime
+from io import BytesIO
 from pathlib import Path
 
 import pandas as pd
@@ -23,6 +27,7 @@ from src.synthetic_data import SyntheticConfig, generate_synthetic_data, save_sy
 PROJECT_ROOT = Path(__file__).resolve().parent
 DATA_PATH = PROJECT_ROOT / "data" / "synthetic_moodtwin_profiles.csv"
 EXAMPLES_PATH = PROJECT_ROOT / "examples"
+UPLOAD_DIR = PROJECT_ROOT / "data" / "uploads"
 
 st.set_page_config(
     page_title="MoodTwin-Lite",
@@ -330,46 +335,145 @@ def get_cached_llm_interpretation(key: str) -> str:
     return stored.get("text", "")
 
 
-def read_optional_mood_diary(uploaded_file) -> pd.DataFrame | None:
-    if uploaded_file is None:
+def read_optional_mood_diary(uploaded_file_or_bytes) -> pd.DataFrame | None:
+    if uploaded_file_or_bytes is None:
         return None
-    return pd.read_csv(uploaded_file)
+    if isinstance(uploaded_file_or_bytes, bytes):
+        return pd.read_csv(BytesIO(uploaded_file_or_bytes))
+    return pd.read_csv(uploaded_file_or_bytes)
 
 
-def load_data_from_sidebar(source_type: str, uploaded_file, mood_diary_file, regenerate: bool):
-    """Return dataframe plus optional import summary."""
+def is_user_upload_source(source_type: str) -> bool:
+    return source_type.startswith("Upload") or source_type in {
+        "MoodTwin schema CSV",
+        "Apple Health export.xml",
+        "Oura daily CSV",
+        "Fitbit daily CSV/JSON",
+    }
 
-    if source_type == "Built-in synthetic demo":
+
+def source_slug(source_type: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "_", source_type.lower()).strip("_")[:50] or "upload"
+
+
+def safe_uploaded_filename(name: str | None, fallback: str) -> str:
+    candidate = name or fallback
+    candidate = re.sub(r"[^A-Za-z0-9._-]+", "_", candidate).strip("._")
+    return candidate or fallback
+
+
+def save_upload_artifacts(
+    *,
+    source_type: str,
+    uploaded_name: str | None,
+    raw_bytes: bytes,
+    mood_diary_name: str | None,
+    mood_diary_bytes: bytes | None,
+    processed_df: pd.DataFrame,
+) -> list[str]:
+    """Save raw and processed uploads locally, once per Streamlit session/fingerprint.
+
+    Files are written to data/uploads/, which is gitignored by default. This is
+    useful for local experimentation, but avoids accidentally committing personal
+    wearable or mood data to GitHub.
+    """
+
+    digest = hashlib.sha1(raw_bytes + (mood_diary_bytes or b"") + source_type.encode()).hexdigest()[:10]
+    session_key = f"{source_type}:{digest}"
+    if st.session_state.get("last_saved_upload_key") == session_key:
+        return st.session_state.get("last_saved_upload_paths", [])
+
+    UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    base = f"{timestamp}_{source_slug(source_type)}_{digest}"
+
+    raw_ext = Path(uploaded_name or "upload.csv").suffix or ".csv"
+    raw_path = UPLOAD_DIR / f"{base}_raw{raw_ext}"
+    raw_path.write_bytes(raw_bytes)
+
+    saved_paths = [str(raw_path.relative_to(PROJECT_ROOT))]
+
+    if mood_diary_bytes:
+        mood_ext = Path(mood_diary_name or "mood_diary.csv").suffix or ".csv"
+        mood_path = UPLOAD_DIR / f"{base}_mood_diary{mood_ext}"
+        mood_path.write_bytes(mood_diary_bytes)
+        saved_paths.append(str(mood_path.relative_to(PROJECT_ROOT)))
+
+    processed_path = UPLOAD_DIR / f"{base}_moodtwin_schema.csv"
+    processed_df.to_csv(processed_path, index=False)
+    saved_paths.append(str(processed_path.relative_to(PROJECT_ROOT)))
+
+    st.session_state["last_saved_upload_key"] = session_key
+    st.session_state["last_saved_upload_paths"] = saved_paths
+    return saved_paths
+
+
+def normalize_source_type(source_type: str) -> str:
+    mapping = {
+        "Upload MoodTwin schema CSV": "MoodTwin schema CSV",
+        "Upload Apple Health export.xml": "Apple Health export.xml",
+        "Upload Oura daily CSV": "Oura daily CSV",
+        "Upload Fitbit daily CSV/JSON": "Fitbit daily CSV/JSON",
+    }
+    return mapping.get(source_type, source_type)
+
+
+def load_data_from_sidebar(source_type: str, uploaded_file, mood_diary_file, regenerate: bool, save_uploaded: bool = False):
+    """Return dataframe, optional import summary, and saved local upload paths."""
+
+    canonical_source = normalize_source_type(source_type)
+
+    if canonical_source == "Built-in synthetic demo":
         if regenerate:
             df = save_synthetic_data(DATA_PATH, SyntheticConfig(seed=42))
             st.cache_data.clear()
             st.success("Synthetic data regenerated.")
         else:
             df = load_default_data()
-        return df, None
+        return df, None, []
 
     demo_mood_diary = EXAMPLES_PATH / "mood_diary_120d_sample.csv"
-    if source_type == "Realistic Oura sample (120 days)":
-        return parse_oura_daily_csv(EXAMPLES_PATH / "oura_daily_120d_sample.csv", mood_diary=pd.read_csv(demo_mood_diary))
-    if source_type == "Realistic Fitbit sample (120 days)":
-        return parse_fitbit_daily_export(EXAMPLES_PATH / "fitbit_daily_120d_sample.csv", mood_diary=pd.read_csv(demo_mood_diary))
-    if source_type == "Realistic Apple Health sample (90 days)":
-        return parse_apple_health_export(EXAMPLES_PATH / "apple_health_90d_sample.xml", mood_diary=pd.read_csv(demo_mood_diary))
+    if canonical_source == "Realistic Oura sample (120 days)":
+        df, summary = parse_oura_daily_csv(EXAMPLES_PATH / "oura_daily_120d_sample.csv", mood_diary=pd.read_csv(demo_mood_diary))
+        return df, summary, []
+    if canonical_source == "Realistic Fitbit sample (120 days)":
+        df, summary = parse_fitbit_daily_export(EXAMPLES_PATH / "fitbit_daily_120d_sample.csv", mood_diary=pd.read_csv(demo_mood_diary))
+        return df, summary, []
+    if canonical_source == "Realistic Apple Health sample (90 days)":
+        df, summary = parse_apple_health_export(EXAMPLES_PATH / "apple_health_90d_sample.xml", mood_diary=pd.read_csv(demo_mood_diary))
+        return df, summary, []
 
     if uploaded_file is None:
         st.info("Upload a file for the selected source, or switch back to the built-in synthetic demo.")
         st.stop()
 
-    mood_diary = read_optional_mood_diary(mood_diary_file)
-    if source_type == "MoodTwin schema CSV":
-        return pd.read_csv(uploaded_file), None
-    if source_type == "Apple Health export.xml":
-        return parse_apple_health_export(uploaded_file, mood_diary=mood_diary)
-    if source_type == "Oura daily CSV":
-        return parse_oura_daily_csv(uploaded_file, mood_diary=mood_diary)
-    if source_type == "Fitbit daily CSV/JSON":
-        return parse_fitbit_daily_export(uploaded_file, mood_diary=mood_diary)
-    raise ValueError(f"Unknown source type: {source_type}")
+    raw_bytes = uploaded_file.getvalue()
+    mood_diary_bytes = mood_diary_file.getvalue() if mood_diary_file is not None else None
+    mood_diary = read_optional_mood_diary(mood_diary_bytes)
+
+    if canonical_source == "MoodTwin schema CSV":
+        df, summary = pd.read_csv(BytesIO(raw_bytes)), None
+    elif canonical_source == "Apple Health export.xml":
+        df, summary = parse_apple_health_export(BytesIO(raw_bytes), mood_diary=mood_diary)
+    elif canonical_source == "Oura daily CSV":
+        df, summary = parse_oura_daily_csv(BytesIO(raw_bytes), mood_diary=mood_diary)
+    elif canonical_source == "Fitbit daily CSV/JSON":
+        df, summary = parse_fitbit_daily_export(BytesIO(raw_bytes), mood_diary=mood_diary)
+    else:
+        raise ValueError(f"Unknown source type: {source_type}")
+
+    saved_paths = []
+    if save_uploaded:
+        saved_paths = save_upload_artifacts(
+            source_type=canonical_source,
+            uploaded_name=getattr(uploaded_file, "name", None),
+            raw_bytes=raw_bytes,
+            mood_diary_name=getattr(mood_diary_file, "name", None) if mood_diary_file is not None else None,
+            mood_diary_bytes=mood_diary_bytes,
+            processed_df=df,
+        )
+
+    return df, summary, saved_paths
 
 
 def build_data_quality_table(profile_df: pd.DataFrame) -> pd.DataFrame:
@@ -442,40 +546,65 @@ def deterministic_summary_html(explanation: str, risk: dict[str, object]) -> str
     """
 
 
-def render_sidebar() -> tuple[str, object, object, bool, str, int, int, str, str, str]:
+def render_sidebar() -> tuple[str, object, object, bool, bool, str, int, int, str, str, str]:
     with st.sidebar:
         st.markdown("## 🧠 MoodTwin-Lite")
         st.caption("Digital twin for mood, sleep, activity, and wearable trajectories.")
         st.divider()
         st.markdown("### Data source")
+        source_options = [
+            "Built-in synthetic demo",
+            "Upload MoodTwin schema CSV",
+            "Upload Oura daily CSV",
+            "Upload Fitbit daily CSV/JSON",
+            "Upload Apple Health export.xml",
+            "Realistic Oura sample (120 days)",
+            "Realistic Fitbit sample (120 days)",
+            "Realistic Apple Health sample (90 days)",
+        ]
         source_type = st.selectbox(
             "Choose source",
-            [
-                "Built-in synthetic demo",
-                "Realistic Oura sample (120 days)",
-                "Realistic Fitbit sample (120 days)",
-                "Realistic Apple Health sample (90 days)",
-                "MoodTwin schema CSV",
-                "Apple Health export.xml",
-                "Oura daily CSV",
-                "Fitbit daily CSV/JSON",
-            ],
+            source_options,
             index=0,
-            label_visibility="collapsed",
+            key="source_type_selector",
+            help="Choose a built-in demo or upload your own local file. Uploaded data is analyzed in the current session and is not sent anywhere unless you enable a hosted LLM.",
         )
+        if st.session_state.get("_previous_source_type") != source_type:
+            # Source changes should not reuse stale upload/save/LLM state from the
+            # previous mode. File upload widgets also get source-specific keys below.
+            st.session_state["_previous_source_type"] = source_type
+            for transient_key in ["llm_interpretation", "last_saved_upload_key", "last_saved_upload_paths"]:
+                st.session_state.pop(transient_key, None)
         uploaded = None
         mood_diary_upload = None
-        if source_type == "MoodTwin schema CSV":
-            uploaded = st.file_uploader("Upload MoodTwin-format CSV", type=["csv"])
-        elif source_type == "Apple Health export.xml":
-            uploaded = st.file_uploader("Upload Apple Health export.xml", type=["xml"])
-            mood_diary_upload = st.file_uploader("Optional mood diary CSV", type=["csv"], key="apple_mood")
-        elif source_type == "Oura daily CSV":
-            uploaded = st.file_uploader("Upload Oura-like daily CSV", type=["csv"])
-            mood_diary_upload = st.file_uploader("Optional mood diary CSV", type=["csv"], key="oura_mood")
-        elif source_type == "Fitbit daily CSV/JSON":
-            uploaded = st.file_uploader("Upload Fitbit-like daily CSV/JSON", type=["csv", "json"])
-            mood_diary_upload = st.file_uploader("Optional mood diary CSV", type=["csv"], key="fitbit_mood")
+        save_uploaded = False
+        if is_user_upload_source(source_type):
+            st.markdown("#### Upload your data")
+            canonical_upload_source = normalize_source_type(source_type)
+            upload_key = f"upload_{source_slug(canonical_upload_source)}"
+            mood_key = f"mood_diary_{source_slug(canonical_upload_source)}"
+            if canonical_upload_source == "MoodTwin schema CSV":
+                uploaded = st.file_uploader(
+                    "Upload MoodTwin-format CSV",
+                    type=["csv"],
+                    key=upload_key,
+                    help="Use this if your file already has the canonical MoodTwin columns.",
+                )
+            elif canonical_upload_source == "Apple Health export.xml":
+                uploaded = st.file_uploader("Upload Apple Health export.xml", type=["xml"], key=upload_key)
+                mood_diary_upload = st.file_uploader("Optional mood diary CSV", type=["csv"], key=mood_key)
+            elif canonical_upload_source == "Oura daily CSV":
+                uploaded = st.file_uploader("Upload Oura-like daily CSV", type=["csv"], key=upload_key)
+                mood_diary_upload = st.file_uploader("Optional mood diary CSV", type=["csv"], key=mood_key)
+            elif canonical_upload_source == "Fitbit daily CSV/JSON":
+                uploaded = st.file_uploader("Upload Fitbit-like daily CSV/JSON", type=["csv", "json"], key=upload_key)
+                mood_diary_upload = st.file_uploader("Optional mood diary CSV", type=["csv"], key=mood_key)
+            save_uploaded = st.checkbox(
+                "Save local copy in data/uploads/",
+                value=False,
+                help="Optional. Saves the raw upload and processed MoodTwin CSV locally on your computer. data/uploads/ is ignored by Git.",
+            )
+            st.caption("Tip: for meaningful forecasts, upload at least 50–90 daily rows and include mood_score or a mood diary.")
 
         use_regenerate = st.button("↻ Regenerate synthetic data", disabled=source_type != "Built-in synthetic demo", use_container_width=True)
         st.divider()
@@ -508,7 +637,7 @@ def render_sidebar() -> tuple[str, object, object, bool, str, int, int, str, str
         else:
             st.caption("Offline mode: deterministic local summary only.")
 
-    return source_type, uploaded, mood_diary_upload, use_regenerate, model_type, forecast_days, timeline_days, llm_provider, llm_model, llm_api_key
+    return source_type, uploaded, mood_diary_upload, use_regenerate, save_uploaded, model_type, forecast_days, timeline_days, llm_provider, llm_model, llm_api_key
 
 
 def render_hero(source_type: str, selected_id: str, date_range: str) -> None:
@@ -683,6 +812,7 @@ def main() -> None:
         uploaded,
         mood_diary_upload,
         use_regenerate,
+        save_uploaded,
         model_type,
         forecast_days,
         timeline_days,
@@ -691,11 +821,9 @@ def main() -> None:
         llm_api_key,
     ) = render_sidebar()
 
-    loaded = load_data_from_sidebar(source_type, uploaded, mood_diary_upload, use_regenerate)
-    if isinstance(loaded, tuple) and len(loaded) == 2:
-        df, import_summary = loaded
-    else:
-        df, import_summary = loaded, None
+    df, import_summary, saved_upload_paths = load_data_from_sidebar(
+        source_type, uploaded, mood_diary_upload, use_regenerate, save_uploaded
+    )
 
     missing = validate_required_columns(df, REQUIRED_COLUMNS)
     if missing:
@@ -778,6 +906,12 @@ def main() -> None:
             )
             for warning in import_summary.warnings:
                 st.warning(warning)
+
+    if saved_upload_paths:
+        with st.expander("Saved local upload files", expanded=False):
+            st.success("Your upload was saved locally. These files are ignored by Git by default.")
+            for saved_path in saved_upload_paths:
+                st.code(saved_path, language="text")
 
     if trained_on_fallback:
         st.info("For a stronger personal model, collect at least 50 days with both wearable features and daily mood labels.")
