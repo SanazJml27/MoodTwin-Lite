@@ -4,9 +4,6 @@
   <b>A lightweight digital twin for mood, sleep, and activity trajectories</b>
 </p>
 
-<p align="center">
-  <img src="assets/moodtwin_lite_hero.png" width="100%" alt="MoodTwin-Lite hero banner">
-</p>
 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-blue">
