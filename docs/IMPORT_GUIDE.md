@@ -25,6 +25,28 @@ Regenerate the realistic examples with:
 python scripts/generate_demo_exports.py
 ```
 
+
+## Upload from the Streamlit app
+
+You do not need to use the command line for personal files. In the sidebar, choose one of:
+
+```text
+Upload MoodTwin schema CSV
+Upload Oura daily CSV
+Upload Fitbit daily CSV/JSON
+Upload Apple Health export.xml
+```
+
+The dashboard analyzes the uploaded file immediately in the current session. For Oura, Fitbit, and Apple Health uploads, you can also upload an optional mood diary CSV. If you check **Save local copy in data/uploads/**, the app saves:
+
+```text
+data/uploads/<timestamp>_<source>_<hash>_raw.<ext>
+data/uploads/<timestamp>_<source>_<hash>_mood_diary.csv   # if provided
+data/uploads/<timestamp>_<source>_<hash>_moodtwin_schema.csv
+```
+
+`data/uploads/` is ignored by Git, so local personal data should not be committed accidentally. Still, always check `git status` before pushing.
+
 ## Mood diary template
 
 Wearables usually do not contain the target variable we want: daily mood. For personal experiments, add a small CSV:

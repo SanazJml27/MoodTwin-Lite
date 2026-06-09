@@ -1,0 +1,8 @@
+@@ -9,3 +9,7 @@
+ 
+ # Keep .streamlit/config.toml tracked for the app theme.
+ .streamlit/secrets.toml
++
++# Local personal uploads are ignored. Keep only the placeholder.
++data/uploads/*
++!data/uploads/.gitkeep
