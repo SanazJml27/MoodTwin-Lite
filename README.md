@@ -20,12 +20,6 @@ MoodTwin-Lite is a lightweight longitudinal digital-twin prototype for **mood, s
 ## App preview
 
 <p align="center">
-  <img src="assets/moodtwin_lite_dashboard_mockup.png" width="92%" alt="MoodTwin-Lite dashboard overview">
-</p>
-
-## Demo
-
-<p align="center">
   <img src="assets/moodtwin_demo.gif" alt="MoodTwin-Lite demo" width="900"/>
 </p>
 
