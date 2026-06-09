@@ -35,7 +35,6 @@ MoodTwin-Lite is a lightweight longitudinal digital-twin prototype for **mood, s
 - Imports local wearable exports from Apple Health, Oura-like daily CSVs, and Fitbit-like CSV/JSON files.
 - Includes realistic 90-120 day wearable-export samples, not just tiny format templates.
 - Supports optional daily mood diary merge for personal data.
-- Adapts the public Dryad **IFH Affect** digital-phenotyping dataset into the MoodTwin schema.
 - Trains a simple baseline forecasting model for near-term mood trajectory.
 - Serializes a person's recent history into an LLM-ready timeline prompt.
 - Adds optional OpenAI/Gemini LLM interpretation for clearer participant-friendly and researcher-facing summaries.
@@ -44,27 +43,6 @@ MoodTwin-Lite is a lightweight longitudinal digital-twin prototype for **mood, s
 - Runs counterfactual scenarios such as better sleep, more activity, and less late screen time.
 - Exports a Markdown digital-twin report.
 
-## Why this is portfolio-worthy
-
-This project demonstrates an end-to-end local-first digital twin workflow:
-
-```text
-Synthetic / wearable / public digital-phenotyping data
-        ↓
-Import adapters and daily schema mapping
-        ↓
-Longitudinal timeline construction
-        ↓
-Feature engineering and baseline forecasting
-        ↓
-LLM-ready timeline serialization
-        ↓
-Risk markers + non-causal counterfactual scenarios
-        ↓
-Optional OpenAI/Gemini interpretation layer
-        ↓
-Interactive Streamlit dashboard + report export
-```
 
 ## Quick start on Mac
 
@@ -246,27 +224,6 @@ python scripts/convert_wearable_export.py \
   --output data/my_fitbit_moodtwin.csv
 ```
 
-## Public dataset adapter: IFH Affect / Dryad
-
-MoodTwin-Lite includes an adapter for the public Dryad dataset:
-
-**Physiological and emotional assessment of college students using wearable and mobile devices during the 2020 COVID-19 lockdown: an intensive, longitudinal dataset**
-
-Dataset page:
-
-```text
-https://datadryad.org/dataset/doi:10.7280/D1WH6T
-```
-
-After downloading and unzipping `ifh_affect.zip`, run:
-
-```bash
-python scripts/adapt_ifh_affect.py \
-  --root /path/to/ifh_affect \
-  --output data/ifh_affect_moodtwin.csv
-```
-
-Then open the app and upload `data/ifh_affect_moodtwin.csv` as a **MoodTwin schema CSV**.
 
 The adapter maps:
 
