@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
-from src.features import PREDICTOR_COLUMNS, add_time_features, clean_input_dataframe, prepare_supervised_data
+from src.features import PREDICTOR_COLUMNS, clean_input_dataframe, prepare_supervised_data
 
 
 @dataclass

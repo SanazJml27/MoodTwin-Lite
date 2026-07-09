@@ -7,3 +7,7 @@ venv/
 .streamlit/
 data/*.parquet
 reports/
+
+# Local personal uploads are ignored. Keep only the placeholder.
+data/uploads/*
+!data/uploads/.gitkeep
