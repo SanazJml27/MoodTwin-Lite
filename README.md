@@ -13,7 +13,7 @@
   <img alt="License" src="https://img.shields.io/badge/License-MIT-lightgrey">
 </p>
 
-MoodTwin-Lite is a lightweight longitudinal digital-twin prototype for **mood, sleep, activity, and wearable/smart-device trajectories**. It is inspired by the **timeline serialization** idea used in longitudinal patient digital-twin frameworks such as TwinWeaver, but it is an original, small, MacBook-friendly application. Instead of oncology EHR histories, it uses daily wearable and self-report style data: sleep, steps, active minutes, HRV, resting heart rate, screen time, stress, medication adherence, and self-reported mood.
+MoodTwin-Lite is a lightweight longitudinal digital-twin prototype for **mood, sleep, activity, and wearable/smart-device trajectories**. It is inspired by the **timeline serialization** idea used in longitudinal patient digital-twin frameworks such as TwinWeaver. It uses daily wearable and self-report style data including sleep, steps, active minutes, HRV, resting heart rate, screen time, stress, medication adherence, and self-reported mood.
 
 > Educational/research prototype only. Not a medical device. Not for diagnosis, treatment, crisis management, or clinical decision-making.
 
